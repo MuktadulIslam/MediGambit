@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "name": "সুস্মিতা রায়",
+            "college_name": "ভিকারুননিসা নূন কলেজ",
+            "img_url": "/imgs/profiles/profile4.jpeg",
+            "district": "ব্রাহ্মণবাড়িয়া"
+        },
+        {
+            "name": "সায়ন্তনী চ্যাটার্জি",
+            "college_name": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় কলেজ",
+            "img_url": "/imgs/profiles/profile5.jpeg",
+            "district": "চাঁপাইনবাবগঞ্জ"
+        },
+        {
+            "name": "পিয়ালী মুখার্জী",
+            "college_name": "ইডেন মহিলা কলেজ",
+            "img_url": "/imgs/profiles/profile6.jpeg",
+            "district": "মৌলভীবাজার"
+        },
+        {
+            "name": "তানিয়া রহমান",
+            "college_name": "কুমিল্লা ভিক্টোরিয়া সরকারি কলেজ",
+            "img_url": "/imgs/profiles/profile7.jpeg",
+            "district": "নোয়াখালী"
+        }
+    ]
+}
