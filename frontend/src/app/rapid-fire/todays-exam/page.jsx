@@ -118,7 +118,7 @@ export default function Page() {
 
 
     return (<>
-        <div className="pt-44 md:pt-48 absolute top-0 min-h-screen w-full flex flex-col justify-between gap-5">
+        <div className="pt-44 md:pt-48 absolute top-0 min-h-dvh w-full flex flex-col justify-between gap-5">
             <div>
                 {viewResult ? <>
                     <div className="mt-2 sm:mt-3 md:mt-5 mb-4 sm:mb-6 text-sm md:text-base">
