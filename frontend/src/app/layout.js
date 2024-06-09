@@ -17,10 +17,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${tiroBangla.className} max-w-[760px] m-auto box-border bg-gray-100`}>
+      <body className={`${tiroBangla.className} max-w-[700px] m-auto box-border bg-gray-100`}>
         <div className="w-full relative overflow-x-hidden bg-[#03989e] min-h-screen  text-gray-950 pb-4">
           <Navbar />
-          <RegistrationPopup/>
+          {/* <RegistrationPopup/> */}
           {children}
         </div>
       </body>

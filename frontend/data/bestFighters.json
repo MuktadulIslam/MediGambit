@@ -1,0 +1,498 @@
+[
+    {
+        "name": "নাদিয়া ইসলাম",
+        "college_name": "খুলনা বিশ্ববিদ্যালয়",
+        "result": "100",
+        "img_url": "/imgs/profiles/profile2.jpeg",
+        "duration": 194,
+        "regi_number": 2478901
+    },
+    {
+        "name": "রাকিবুল হাসান",
+        "college_name": "রুয়েট",
+        "result": "100",
+        "img_url": "/imgs/profiles/profile5.jpeg",
+        "duration": 194,
+        "regi_number": 2465432
+    },
+    {
+        "name": "মাসুম আহমেদ",
+        "college_name": "সরকারি মুজিব কলেজ",
+        "result": "98",
+        "img_url": "/imgs/profiles/profile13.jpeg",
+        "duration": 149,
+        "regi_number": 2456783
+    },
+    {
+        "name": "পিয়ালী মুখার্জী",
+        "college_name": "ইডেন মহিলা কলেজ",
+        "result": "97",
+        "img_url": "/imgs/profiles/profile6.jpeg",
+        "duration": 150,
+        "regi_number": 2467894
+    },
+    {
+        "name": "শারমিন আক্তার",
+        "college_name": "সরকারি শহীদ সোহরাওয়ার্দী কলেজ",
+        "result": "97",
+        "img_url": "/imgs/profiles/profile5.jpeg",
+        "duration": 112,
+        "regi_number": 2489015
+    },
+    {
+        "name": "আলিফ হোসেন",
+        "college_name": "ঢাকা কলেজ",
+        "result": "96",
+        "img_url": "/imgs/profiles/profile16.jpeg",
+        "duration": 194,
+        "regi_number": 2445676
+    },
+    {
+        "name": "মোহাম্মদ আলী",
+        "college_name": "পাবনা সরকারি এডওয়ার্ড কলেজ",
+        "result": "96",
+        "img_url": "/imgs/profiles/profile11.jpeg",
+        "duration": 137,
+        "regi_number": 2478902
+    },
+    {
+        "name": "মাহফুজা হক",
+        "college_name": "হলি ক্রস কলেজ",
+        "result": "96",
+        "img_url": "/imgs/profiles/profile12.jpeg",
+        "duration": 180,
+        "regi_number": 2456787
+    },
+    {
+        "name": "শাওন আহমেদ",
+        "college_name": "শেরেবাংলা কৃষি বিশ্ববিদ্যালয়",
+        "result": "94",
+        "img_url": "/imgs/profiles/profile14.jpeg",
+        "duration": 130,
+        "regi_number": 2490123
+    },
+    {
+        "name": "সাঈদুল হক",
+        "college_name": "কুয়েট",
+        "result": "93",
+        "img_url": "/imgs/profiles/profile3.jpeg",
+        "duration": 121,
+        "regi_number": 2445678
+    },
+    {
+        "name": "ফাহিম হোসেন",
+        "college_name": "চুয়েট",
+        "result": "93",
+        "img_url": "/imgs/profiles/profile4.jpeg",
+        "duration": 190,
+        "regi_number": 2467899
+    },
+    {
+        "name": "মিলি বেগম",
+        "college_name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+        "result": "93",
+        "img_url": "/imgs/profiles/profile11.jpeg",
+        "duration": 192,
+        "regi_number": 2489011
+    },
+    {
+        "name": "দেবলীনা সেনগুপ্ত",
+        "college_name": "ঢাকা কমার্স কলেজ",
+        "result": "91",
+        "img_url": "/imgs/profiles/profile2.jpeg",
+        "duration": 153,
+        "regi_number": 2445679
+    },
+    {
+        "name": "শামীমা সুলতানা",
+        "college_name": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+        "result": "91",
+        "img_url": "/imgs/profiles/profile14.jpeg",
+        "duration": 179,
+        "regi_number": 2465435
+    },
+    {
+        "name": "মিরাজুল হক",
+        "college_name": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়",
+        "result": "91",
+        "img_url": "/imgs/profiles/profile6.jpeg",
+        "duration": 126,
+        "regi_number": 2445675
+    },
+    {
+        "name": "মমিনুল হক",
+        "college_name": "চট্টগ্রাম ভেটেরিনারি ও অ্যানিম্যাল সায়েন্সেস বিশ্ববিদ্যালয়",
+        "result": "91",
+        "img_url": "/imgs/profiles/profile10.jpeg",
+        "duration": 194,
+        "regi_number": 2456784
+    },
+    {
+        "name": "মধুমিতা দাস",
+        "college_name": "হলি ক্রস কলেজ",
+        "result": "90",
+        "img_url": "/imgs/profiles/profile1.jpeg",
+        "duration": 123,
+        "regi_number": 2489017
+    },
+    {
+        "name": "রাকিবুল হাসান",
+        "college_name": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+        "result": "90",
+        "img_url": "/imgs/profiles/profile8.jpeg",
+        "duration": 192,
+        "regi_number": 2467890
+    },
+    {
+        "name": "নুসরাত ফারিয়া",
+        "college_name": "বীরশ্রেষ্ঠ নূর মোহাম্মদ পাবলিক কলেজ",
+        "result": "90",
+        "img_url": "/imgs/profiles/profile10.jpeg",
+        "duration": 135,
+        "regi_number": 2478903
+    },
+    {
+        "name": "তানিয়া রহমান",
+        "college_name": "কুমিল্লা ভিক্টোরিয়া সরকারি কলেজ",
+        "result": "85",
+        "img_url": "/imgs/profiles/profile7.jpeg",
+        "duration": 154,
+        "regi_number": 2445680
+    },
+    {
+        "name": "রিফাত আলম",
+        "college_name": "ঢাকা বিশ্ববিদ্যালয়",
+        "result": "79",
+        "img_url": "/imgs/profiles/profile7.jpeg",
+        "duration": 169,
+        "regi_number": 2465436
+    },
+    {
+        "name": "আশরাফুল ইসলাম",
+        "college_name": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+        "result": "97",
+        "img_url": "/imgs/profiles/profile8.jpeg",
+        "duration": 192,
+        "regi_number": 2490124
+    },
+    {
+        "name": "আনিসা রহমান",
+        "college_name": "পাবনা বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+        "result": "87",
+        "img_url": "/imgs/profiles/profile12.jpeg",
+        "duration": 138,
+        "regi_number": 2489019
+    },
+    {
+        "name": "রুবিনা পারভীন",
+        "college_name": "কুমিল্লা সরকারি কলেজ",
+        "result": "72",
+        "img_url": "/imgs/profiles/profile9.jpeg",
+        "duration": 147,
+        "regi_number": 2478904
+    },
+    {
+        "name": "রাকিবুল হাসান",
+        "college_name": "সিলেট এম.এ.জি ওসমানী মেডিকেল কলেজ",
+        "result": "70",
+        "img_url": "/imgs/profiles/profile7.jpeg",
+        "duration": 188,
+        "regi_number": 2445681
+    },
+    {
+        "name": "তানভির আহমেদ",
+        "college_name": "কুমিল্লা মেডিকেল কলেজ",
+        "result": "71",
+        "img_url": "/imgs/profiles/profile8.jpeg",
+        "duration": 123,
+        "regi_number": 2456785
+    },
+    {
+        "name": "জান্নাতুল নাসের",
+        "college_name": "সিরাজ উদ্দিন আহমেদ এদুকেশন কমপ্লেক্স",
+        "result": "73",
+        "img_url": "/imgs/profiles/profile3.jpeg",
+        "duration": 135,
+        "regi_number": 2489012
+    },
+    {
+        "name": "রহিমা আক্তার",
+        "college_name": "যশোর শহীদ জিয়া উদ্দিন মডেল কলেজ",
+        "result": "90",
+        "img_url": "/imgs/profiles/profile1.jpeg",
+        "duration": 157,
+        "regi_number": 2490125
+    },
+    {
+        "name": "ফাহিমা খানম",
+        "college_name": "বরিশাল বিশ্ববিদ্যালয়",
+        "result": "78",
+        "img_url": "/imgs/profiles/profile2.jpeg",
+        "duration": 124,
+        "regi_number": 2478905
+    },
+    {
+        "name": "আবিদ হোসেন",
+        "college_name": "কুমিল্লা পলিটেকনিক ইনস্টিটিউট",
+        "result": "75",
+        "img_url": "/imgs/profiles/profile6.jpeg",
+        "duration": 178,
+        "regi_number": 2445682
+    },
+    {
+        "name": "ফারজানা আক্তার",
+        "college_name": "ব্রাক ইন্সটিটিউট অব বিজনেস পাবলিক হিলস",
+        "result": "75",
+        "img_url": "/imgs/profiles/profile15.jpeg",
+        "duration": 194,
+        "regi_number": 2489013
+    },
+    {
+        "name": "মমিনুল ইসলাম",
+        "college_name": "ঢাকা বিশ্ববিদ্যালয়",
+        "result": "78",
+        "img_url": "/imgs/profiles/profile4.jpeg",
+        "duration": 179,
+        "regi_number": 2467891
+    },
+    {
+        "name": "মোস্তাফা মেহেরাব",
+        "college_name": "খুলনা বিশ্ববিদ্যালয়",
+        "result": "72",
+        "img_url": "/imgs/profiles/profile5.jpeg",
+        "duration": 188,
+        "regi_number": 2490126
+    },
+    {
+        "name": "রহিমা আক্তার",
+        "college_name": "রাজশাহী বিশ্ববিদ্যালয়",
+        "result": "76",
+        "img_url": "/imgs/profiles/profile7.jpeg",
+        "duration": 192,
+        "regi_number": 2478906
+    },
+    {
+        "name": "মহিউদ্দিন আহমেদ",
+        "college_name": "রাজশাহী বিশ্ববিদ্যালয়",
+        "result": "84",
+        "img_url": "/imgs/profiles/profile15.jpeg",
+        "duration": 123,
+        "regi_number": 2490128
+    },
+    {
+        "name": "তামান্না তাসনীম",
+        "college_name": "ঢাকা বিশ্ববিদ্যালয়",
+        "result": "85",
+        "img_url": "/imgs/profiles/profile1.jpeg",
+        "duration": 188,
+        "regi_number": 2478909
+    },
+    {
+        "name": "তানজিমা আক্তার",
+        "college_name": "ঢাকা বিশ্ববিদ্যালয়",
+        "result": "83",
+        "img_url": "/imgs/profiles/profile2.jpeg",
+        "duration": 125,
+        "regi_number": 2467894
+    },
+    {
+        "name": "সুবীর রাহমান",
+        "college_name": "খুলনা বিশ্ববিদ্যালয়",
+        "result": "86",
+        "img_url": "/imgs/profiles/profile3.jpeg",
+        "duration": 194,
+        "regi_number": 2489015
+    },
+    {
+        "name": "তাসনিমা খান",
+        "college_name": "রাজশাহী বিশ্ববিদ্যালয়",
+        "result": "89",
+        "img_url": "/imgs/profiles/profile4.jpeg",
+        "duration": 159,
+        "regi_number": 2490129
+    },
+    {
+        "name": "তানিয়া আক্তার",
+        "college_name": "ঢাকা বিশ্ববিদ্যালয়",
+        "result": "90",
+        "img_url": "/imgs/profiles/profile5.jpeg",
+        "duration": 132,
+        "regi_number": 2478910
+    },
+    {
+        "name": "শাহনাজ আক্তার",
+        "college_name": "কুমিল্লা সরকারি কলেজ",
+        "result": "87",
+        "img_url": "/imgs/profiles/profile6.jpeg",
+        "duration": 176,
+        "regi_number": 2467895
+    },
+    {
+        "name": "মিতা ইসলাম",
+        "college_name": "রাজশাহী বিশ্ববিদ্যালয়",
+        "result": "91",
+        "img_url": "/imgs/profiles/profile7.jpeg",
+        "duration": 194,
+        "regi_number": 2489016
+    },
+    {
+        "name": "মুসা মিয়া",
+        "college_name": "খুলনা মহিলা কলেজ",
+        "result": "85",
+        "img_url": "/imgs/profiles/profile8.jpeg",
+        "duration": 133,
+        "regi_number": 2456787
+    },
+    {
+        "name": "মোস্তাফা আহমেদ",
+        "college_name": "সিলেট বিশ্ববিদ্যালয়",
+        "result": "84",
+        "img_url": "/imgs/profiles/profile9.jpeg",
+        "duration": 192,
+        "regi_number": 2490130
+    },
+    {
+        "name": "সালমা আক্তার",
+        "college_name": "রাজশাহী বিশ্ববিদ্যালয়",
+        "result": "92",
+        "img_url": "/imgs/profiles/profile10.jpeg",
+        "duration": 166,
+        "regi_number": 2478911
+    },
+    {
+        "name": "মিম আক্তার",
+        "college_name": "সিরাজগঞ্জ পুরাতন পুরুষ কলেজ",
+        "result": "88",
+        "img_url": "/imgs/profiles/profile11.jpeg",
+        "duration": 194,
+        "regi_number": 2467896
+    },
+    {
+        "name": "রাহাত আহমেদ",
+        "college_name": "ময়মনসিংহ বিশ্ববিদ্যালয়",
+        "result": "89",
+        "img_url": "/imgs/profiles/profile12.jpeg",
+        "duration": 139,
+        "regi_number": 2489017
+    },
+    {
+        "name": "আফিয়া আক্তার",
+        "college_name": "বরিশাল বিশ্ববিদ্যালয়",
+        "result": "93",
+        "img_url": "/imgs/profiles/profile13.jpeg",
+        "duration": 194,
+        "regi_number": 2478912
+    },
+    {
+        "name": "রুবেলা আক্তার",
+        "college_name": "খুলনা বিশ্ববিদ্যালয়",
+        "result": "90",
+        "img_url": "/imgs/profiles/profile14.jpeg",
+        "duration": 162,
+        "regi_number": 2490131
+    },
+    {
+        "name": "জান্নাতুল ফেরদৌস",
+        "college_name": "সিরাজগঞ্জ পুরাতন পুরুষ কলেজ",
+        "result": "91",
+        "img_url": "/imgs/profiles/profile15.jpeg",
+        "duration": 194,
+        "regi_number": 2467897
+    },
+    {
+        "name": "আকিলা আক্তার",
+        "college_name": "সিলেট মেডিকেল কলেজ",
+        "result": "85",
+        "img_url": "/imgs/profiles/profile1.jpeg",
+        "duration": 175,
+        "regi_number": 2489018
+    },
+    {
+        "name": "আকিলা আক্তার",
+        "college_name": "কুমিল্লা বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+        "result": "89",
+        "img_url": "/imgs/profiles/profile2.jpeg",
+        "duration": 167,
+        "regi_number": 2478913
+    },
+    {
+        "name": "মোমেনা আক্তার",
+        "college_name": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+        "result": "92",
+        "img_url": "/imgs/profiles/profile3.jpeg",
+        "duration": 194,
+        "regi_number": 2490132
+    },
+    {
+        "name": "রিয়া আক্তার",
+        "college_name": "রাজশাহী বিশ্ববিদ্যালয়",
+        "result": "90",
+        "img_url": "/imgs/profiles/profile4.jpeg",
+        "duration": 164,
+        "regi_number": 2467898
+    },
+    {
+        "name": "তাহমিনা আক্তার",
+        "college_name": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+        "result": "95",
+        "img_url": "/imgs/profiles/profile5.jpeg",
+        "duration": 194,
+        "regi_number": 2489019
+    },
+    {
+        "name": "মেহেরুন নেসা",
+        "college_name": "কুমিল্লা বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+        "result": "94",
+        "img_url": "/imgs/profiles/profile6.jpeg",
+        "duration": 168,
+        "regi_number": 2478914
+    },
+    {
+        "name": "মোস্তাফা জহান",
+        "college_name": "রাজশাহী বিশ্ববিদ্যালয়",
+        "result": "95",
+        "img_url": "/imgs/profiles/profile7.jpeg",
+        "duration": 194,
+        "regi_number": 2490133
+    },
+    {
+        "name": "জান্নাতুল আক্তার",
+        "college_name": "সিলেট মেডিকেল কলেজ",
+        "result": "92",
+        "img_url": "/imgs/profiles/profile8.jpeg",
+        "duration": 175,
+        "regi_number": 2467899
+    },
+    {
+        "name": "রিয়া আক্তার",
+        "college_name": "বরিশাল বিশ্ববিদ্যালয়",
+        "result": "93",
+        "img_url": "/imgs/profiles/profile9.jpeg",
+        "duration": 165,
+        "regi_number": 2489020
+    },
+    {
+        "name": "মুস্তাফিজুর রহমান",
+        "college_name": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+        "result": "94",
+        "img_url": "/imgs/profiles/profile10.jpeg",
+        "duration": 194,
+        "regi_number": 2478915
+    },
+    {
+        "name": "তাসনিমা আক্তার",
+        "college_name": "চট্টগ্রাম বিশ্ববিদ্যালয়",
+        "result": "95",
+        "img_url": "/imgs/profiles/profile11.jpeg",
+        "duration": 178,
+        "regi_number": 2490134
+    },
+    {
+        "name": "রিফায়া আক্তার",
+        "college_name": "সিলেট মেডিকেল কলেজ",
+        "result": "96",
+        "img_url": "/imgs/profiles/profile12.jpeg",
+        "duration": 194,
+        "regi_number": 2467900
+    }
+]

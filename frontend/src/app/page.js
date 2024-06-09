@@ -1,5 +1,5 @@
 "use client"
-import FireEmoji from "@/components/FireEmoji";
+import FireIcon from "@/components/FireIcon";
 import Link from "next/link";
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
@@ -23,7 +23,7 @@ export default function Home() {
             <span className="inline-block w-3 h-3 rounded-full bg-white ml-1 shadow-sm shadow-gray-400"></span>
           </Link>
           <Link href="/rapid-fire" className="w-44 md:w-48 h-10 md:h-12 bg-[#d9d9d9] flex justify-end items-center pr-2 rounded-l-xl shadow-md shadow-gray-600">
-            <span className="translate-y-0.5">আজকের Rapid Fire</span> <span className="ml-1"><FireEmoji /></span>
+            <span className="translate-y-0.5">আজকের Rapid Fire</span> <span className="ml-1 h-1/2 w-auto"><FireIcon /></span>
           </Link>
         </div>
         {/* end:::JoinLive & Rapid Fire */}
