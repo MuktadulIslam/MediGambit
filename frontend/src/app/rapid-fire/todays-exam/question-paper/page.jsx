@@ -39,7 +39,7 @@ export default function Page() {
         </div>
 
         {allquestions && allquestions.map((question, q_index) => (
-            <div key={q_index} className="w-full mt-1.5 md:mt-2 h-auto px-1 sm:px-1.5 md:px-3">
+            <div key={q_index} className="w-full mt-1.5 md:mt-2 h-auto px-1 md:px-1.5">
                 <div className="w-full h-auto bg-white rounded-md overflow-hidden flex">
                     <div className="pb-2 px-1.5 md:px-2 flex-1 h-auto overflow-hidden">
                         {question.questionImg && (
@@ -80,7 +80,7 @@ export default function Page() {
                         </div>
 
                         <div className="h-5 w-full mt-3 pl-4">
-                            <div className="h-full w-full flex justify-start items-center gap-2 overflow-x-auto hidden-scrollbar text-sm *:flex *:items-center">
+                            <div className="h-full w-full flex justify-start items-center gap-2 overflow-x-auto hidden-scrollbar text-xs *:flex *:items-center">
                                 {question.tags.map((tag, index) => (
                                     <p key={index} className="h-full py-0.5 px-1.5 flex-none rounded-full bg-gray-100">{tag}</p>
                                 ))}
@@ -102,13 +102,13 @@ export default function Page() {
         <div className="fixed bottom-2 w-full h-7 md:h-8">
             <div className="w-full max-w-[700px] h-full flex justify-evenly *:flex *:justify-center *:items-center *:rounded-full text-white">
                 <Link
-                href={{
-                  pathname: "./question-paper/pdf",
-                  state: {
-                    questions: 'yourQuestionsData',
-                  }
-                }}
-                  className="w-40 h-full bg-gradient-to-r from-[#e03e22] to-[#997417] text-sm">Download PDF</Link>
+                    href={{
+                        pathname: "./question-paper/pdf",
+                        state: {
+                            questions: 'yourQuestionsData',
+                        }
+                    }}
+                    className="w-40 h-full bg-gradient-to-r from-[#e03e22] to-[#997417] text-sm">Download PDF</Link>
                 <Link href="./position" className="w-40 h-full bg-gradient-to-r from-[#f7bc25] to-[#947119] text-lg">See Your Position</Link>
             </div>
         </div>

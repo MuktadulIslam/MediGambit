@@ -159,7 +159,7 @@ export default function Page() {
                             <div className="h-6 w-40 mx-auto text-center bg-[#f44336] text-white shadow-sm shadow-gray-600">Question {currentQuestionIndex.current}</div>
                         </div>
 
-                        <div className="w-full h-auto px-1 sm:px-1.5 md:px-3">
+                        <div className="w-full h-auto px-1 md:px-1.5">
                             <div className="mt-2 pb-2 px-1.5 md:px-2 w-full h-auto bg-white rounded-md">
                                 {currentQuestion.questionImg && (
                                     <div className="w-full max-w-96 mt-2">
