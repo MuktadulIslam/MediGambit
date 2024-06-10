@@ -60,7 +60,7 @@ export default function PDFDownload({ questions, examdetails }) {
 
             <div className="w-full h-auto">
                 <div className='h-7 w-full text-center text-lg font-semibold text-gray-600'>উত্তরপত্র</div>
-                <div className="columns-4 px-1 sm:px-2 md:px-4 ">
+                <div className="columns-2 px-1 sm:px-2 md:px-4 ">
                     {questions.map((question, q_index) =>
                         <div key={q_index} className="h-7 card-white text-sm relative flex items-center">
                             <div className='w-6 text-base'>{q_index + 1}. </div>
