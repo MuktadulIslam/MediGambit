@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import RegistrationPopup from "./RegistrationPopup";
 import { useState } from "react";
 
-export default function MainApp() {
+export default function MainApp({children}) {
     const [user, setUser] = useState({
         "name": "Mehedi Hasan",
         "regi_number": 1928627,
@@ -16,6 +16,7 @@ export default function MainApp() {
         <AuthContext.Provider value={{user, setUser}}>
             <Navbar />
             <RegistrationPopup/>
+            { children }
         </AuthContext.Provider>
     </>)
 }
