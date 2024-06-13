@@ -1,7 +1,6 @@
 import { Tiro_Bangla } from "next/font/google";
 import "./globals.css";
-import Navbar from "./Navbar";
-import RegistrationPopup from "./RegistrationPopup";
+import MainApp from "./MainApp";
 
 const tiroBangla = Tiro_Bangla({
   weight: ["400"],
@@ -19,9 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${tiroBangla.className} max-w-[700px] m-auto box-border bg-gray-100`}>
         <div className="w-full relative overflow-x-hidden bg-[#03989e] min-h-screen  text-gray-950 pb-4">
-          <Navbar />
-          {/* <RegistrationPopup/> */}
-          {children}
+        <MainApp>{children}</MainApp>
         </div>
       </body>
     </html>

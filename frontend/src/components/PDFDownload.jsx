@@ -1,25 +1,27 @@
 "use client"
 import { useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation'
+import Link from 'next/link';
 
 export default function PDFDownload({ questions, examdetails }) {
     const router = useRouter();
     const optionIndex = ["A", "B", "C", "D"];
-    const examtopic = (examdetails != null && examdetails.examtopic != null && examdetails.examtopic.bnName != null) ? examdetails.examtopic.bnName : "গাজীপুর ক্যান্টনমেন্ট কলেজ";
-    const examname = (examdetails != null && examdetails.examname != null && examdetails.examname.bnName != null) ? examdetails.examname.bnName : "নির্বাচনী পরীক্ষা ২০২৪";
-    const examsubject = (examdetails != null && examdetails.examsubject != null && examdetails.examsubject.bnName != null) ? examdetails.examsubject.bnName : "জীববিজ্ঞান ১ম পত্র";
+    const examtopic = (examdetails != null && examdetails.examtopic != null && examdetails.examtopic.bnName != null) ? examdetails.examtopic.bnName : "";
+    const examname = (examdetails != null && examdetails.examname != null && examdetails.examname.bnName != null) ? examdetails.examname.bnName : "";
+    const examsubject = (examdetails != null && examdetails.examsubject != null && examdetails.examsubject.bnName != null) ? examdetails.examsubject.bnName : "";
 
     const firstTimeMount = useRef(true)
     useEffect(() => {
         if (firstTimeMount.current) {
             window.print();
             firstTimeMount.current = false;
+            setTimeout(router.back(),3000)
         }
     }, []);
 
     return (<>
         <div className="bg-white">
-            <div className='absolute top-0 z-50 w-full h-auto bg-white border-b-2 border-black'>
+            <Link href="/" className='absolute top-0 z-50 w-full h-auto bg-white border-b-2 border-black'>
                 <div className="flex items-center justify-center py-5 h-36 md:h-40">
                     <img src="/imgs/icons/medigambit.png" alt="" className="object-cover h-full" />
                 </div>
@@ -30,7 +32,7 @@ export default function PDFDownload({ questions, examdetails }) {
                     <p className="text-sm">{examsubject}</p>
                     <p className="text-sm">{examname}</p>
                 </div>
-            </div>
+            </Link>
 
             <div className="w-full px-1 pt-6 sm:px-2 md:px-4">
                 <div className="gap-3 space-y-2 columns-2 pb-14">

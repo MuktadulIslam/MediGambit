@@ -10,7 +10,7 @@ const robotoSlab = Roboto_Slab({
     subsets: ["latin"]
 });
 
-export function Timer({ timerReseter, examtimer }) {
+function Timer({ timerReseter, examtimer }) {
     const [timer, setTimer] = useState();
 
     useEffect(() => {
@@ -33,7 +33,7 @@ export function Timer({ timerReseter, examtimer }) {
 
 
 export default function Page() {
-    const { setAllAnswers, maxMarks, totalMarks, setTotalMarks, totalTime, setTotalTime, allquestions } = useContext(RapidQuestionContext)
+    const { setAllAnswers, maxMark, totalMark, setTotalMark, totalTime, setTotalTime, allquestions } = useContext(RapidQuestionContext)
     const allAnswers = useRef([])
 
     const optionIndex = ["A", "B", "C", "D"];
@@ -70,8 +70,12 @@ export default function Page() {
         setAnwer()
         if (currentQuestionIndex.current >= allquestions.length) {
             // Here Set the "allAnswers.current" to the backend
-            setAllAnswers(allAnswers.current)
-            setTotalMarks(getTotalMarks());
+            const temp = [];
+            allAnswers.current.forEach((answer)=>{
+                temp.push(answer.answer)
+            })
+            setAllAnswers(temp)
+            setTotalMark(getTotalMarks());
             setTotalTime(getTotalTime());
 
             setViewResult(true)
@@ -118,11 +122,11 @@ export default function Page() {
 
 
     return (<>
-        <div className="pt-44 md:pt-48 absolute top-0 min-h-dvh w-full flex flex-col justify-between gap-5">
+        <div className="absolute top-0 flex flex-col justify-between w-full gap-5 pt-44 md:pt-48 min-h-dvh">
             <div>
                 {viewResult ? <>
-                    <div className="mt-2 sm:mt-3 md:mt-5 mb-4 sm:mb-6 text-sm md:text-base">
-                        <div className="h-12 w-full text-center text-xl text-white">
+                    <div className="mt-2 mb-4 text-sm sm:mt-3 md:mt-5 sm:mb-6 md:text-base">
+                        <div className="w-full h-12 text-xl text-center text-white">
                             Well done!<br /> You made it!
                         </div>
 
@@ -141,18 +145,18 @@ export default function Page() {
                         </div>
                     </div>
 
-                    <div className="h-auto w-full px-5 sm:px-10 md:px-16 flex justify-center items-center">
-                        <div className="w-full py-2 bg-white text-black text-lg md:text-xl text-center font-medium">
+                    <div className="flex items-center justify-center w-full h-auto px-5 sm:px-10 md:px-16">
+                        <div className="w-full py-2 text-lg font-medium text-center text-black bg-white md:text-xl">
                             Hlw <span className="text-red-500">Himel</span>, <br />
                             You earn fantastic marks. <br />
-                            Total marks: <span className="text-red-500">{totalMarks}/{maxMarks}</span> <br />
+                            Total marks: <span className="text-red-500">{totalMark}/{maxMark}</span> <br />
                             Time consumed: <span className="text-red-500">{totalTime} s</span>
                         </div>
                     </div>
                 </> :
                     <>
-                        <div className="mt-2 sm:mt-3 md:mt-5 mb-4 sm:mb-6">
-                            <div className="h-6 w-full text-center text-xs text-white">
+                        <div className="mt-2 mb-4 sm:mt-3 md:mt-5 sm:mb-6">
+                            <div className="w-full h-6 text-xs text-center text-white">
                                 Timer: <Timer timerReseter={timerReseter.current} examtimer={examtimer} />
                             </div>
 
@@ -162,7 +166,7 @@ export default function Page() {
                         <div className="w-full h-auto px-1 md:px-1.5">
                             <div className="mt-2 pb-2 px-1.5 md:px-2 w-full h-auto bg-white rounded-md">
                                 {currentQuestion.questionImg && (
-                                    <div className="w-full max-w-96 mt-2">
+                                    <div className="w-full mt-2 max-w-96">
                                         <img
                                             src={currentQuestion.questionImg}
                                             alt=""
@@ -184,7 +188,7 @@ export default function Page() {
                                             <input type="radio"
                                                 id={`${currentQuestion.question}-${index}`}
                                                 name={currentQuestion.question}
-                                                className="peer hidden"
+                                                className="hidden peer"
                                                 onChange={() => allAnswers.current[currentQuestionIndex.current - 1].answer = option}
                                             />
                                             <label htmlFor={`${currentQuestion.question}-${index}`} className="h-full aspect-square rounded-full border shadow-sm shadow-gray-500 flex justify-center items-center pt-0.5 peer-checked:border-black peer-checked:bg-black peer-checked:text-white">{optionIndex[index]}</label>
@@ -198,7 +202,7 @@ export default function Page() {
                                 </div>
                             </div>
 
-                            <div className="mt-2 h-6 w-full text-center text-xs text-white">Remaining Question: {allquestions.length - currentQuestionIndex.current}</div>
+                            <div className="w-full h-6 mt-2 text-xs text-center text-white">Remaining Question: {allquestions.length - currentQuestionIndex.current}</div>
                         </div>
                     </>
                 }
@@ -206,7 +210,7 @@ export default function Page() {
 
             {viewResult ? <>
                 <div className="h-7 md:h-8 mb-2 md:mb-3 w-full flex justify-evenly *:flex *:justify-center *:items-center *:rounded-full text-white">
-                    <Link href="./todays-exam/question-paper" className="w-40 h-full bg-gradient-to-r from-[#e03e22] to-[#997417] text-sm">Question Paper</Link>
+                    <Link href="./todays-exam/exam-result" className="w-40 h-full bg-gradient-to-r from-[#e03e22] to-[#997417] text-sm">View Result</Link>
                     <Link href="./todays-exam/position" className="w-40 h-full bg-gradient-to-r from-[#f7bc25] to-[#947119] text-lg">Your Position</Link>
                 </div>
             </> :
