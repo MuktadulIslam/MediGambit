@@ -6,7 +6,7 @@ import { AuthContext } from "@/AllContexts"
 import { useContext } from "react";
 
 export default function Navbar() {
-    const {user} = useContext(AuthContext)
+    const { user, hasLiveExam, hasRapidFire, numberOfDTD } = useContext(AuthContext)
 
     const showMenu = () => {
         const menu = document.getElementById("menu");
@@ -38,25 +38,33 @@ export default function Navbar() {
             <div id="menu" className={`absolute transition-all duration-300 -translate-x-[110%] top-20 left-0 text-[15px] w-60 h-[500px] bg-white flex flex-col *:h-10 *:w-full *:flex *:items-center *:pl-2`}>
                 <div className="justify-between pl-0 pr-1 mb-4">
                     <Link href="" className="flex items-center h-full">
-                        <img src={user.profileImg} alt="" className="object-cover -translate-x-1 rounded-full h-5/6 aspect-square"/>
+                        <img src={user.profileImg} alt="" className="object-cover -translate-x-1 rounded-full h-5/6 aspect-square" />
                         <span className={`${inter.className} font-semibold`}>ID: {user.regi_number}</span>
                     </Link>
                     <div className="h-2/3 px-1.5 bg-red-500 rounded-sm font-sans font-semibold text-sm flex justify-center items-center text-gray-100">Logout</div>
                 </div>
-                <Link href="" className="text-[19px] font-sans font-semibold active:text-red-500 pc:hover:text-red-500 pc:hover:pl-6 transition-all duration-300">Home Page</Link>
-                <Link href="" className="transition-all duration-300 active:text-red-500 pc:hover:text-red-500 pc:hover:pl-6">
+                <Link href="/" className="text-[19px] font-sans font-semibold active:text-red-500 pc:hover:text-red-500 pc:hover:pl-6 transition-all duration-300">Home Page</Link>
+                <Link href="/live-exams" className="transition-all duration-300 active:text-red-500 pc:hover:text-red-500 pc:hover:pl-6">
                     Join LIVE exam
-                    <span className="inline-block w-3 h-3 ml-1 bg-green-400 rounded-full shadow-sm shadow-gray-400"></span>
+                    {hasLiveExam ?
+                        (<span className="inline-block w-3 h-3 ml-1 bg-green-400 rounded-full shadow-sm shadow-gray-600 translate-y-[-2px]"></span>)
+                        : ""
+                    }
                 </Link>
-                <Link href="" className="transition-all duration-300 active:text-red-500 pc:hover:text-red-500 pc:hover:pl-6">
+                <Link href="/rapid-fire" className="transition-all duration-300 active:text-red-500 pc:hover:text-red-500 pc:hover:pl-6">
                     Todays Rapid Fire
-                    <span className="inline-block w-3 h-3 ml-1 bg-green-400 rounded-full shadow-sm shadow-gray-400"></span>
+                    {hasRapidFire ?
+                        (<span className="inline-block w-3 h-3 ml-1 bg-green-400 rounded-full shadow-sm shadow-gray-600 translate-y-[-2px]"></span>)
+                        : ""
+                    }
                 </Link>
                 <Link href="" className="transition-all duration-300 active:text-red-500 pc:hover:text-red-500 pc:hover:pl-6">
                     Dual to Death
-                    <span className="w-3 h-3 rounded-full bg-red-500 text-white text-[10px] flex justify-center items-center ml-1 shadow-sm shadow-gray-400">
-                        2
-                    </span>
+                    {(numberOfDTD != null && numberOfDTD > 0) ?
+                        (<span className="w-3 h-3 rounded-full bg-red-500 text-white text-[10px] flex justify-center items-center ml-1 translate-y-[-2px] shadow-sm shadow-gray-600">
+                            {numberOfDTD}
+                        </span>) : ""
+                    }
                 </Link>
                 <Link href="" className="transition-all duration-300 active:text-red-500 pc:hover:text-red-500 pc:hover:pl-6">Good Night SHOW</Link>
                 <Link href="" className="transition-all duration-300 active:text-red-500 pc:hover:text-red-500 pc:hover:pl-6">Hidden Treasure</Link>

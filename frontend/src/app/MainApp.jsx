@@ -12,8 +12,11 @@ export default function MainApp({children}) {
         "district": "Gopalganj",
         "profileImg": "/imgs/profiles/profile9.jpeg",
     })
+    const [hasLiveExam, setHasLiveExam] = useState(true);
+    const [hasRapidFire, setHasRapidFire] = useState(true);
+    const [numberOfDTD, setNumberOfDTD] = useState(5);
     return (<>
-        <AuthContext.Provider value={{user, setUser}}>
+        <AuthContext.Provider value={{user, setUser, hasLiveExam, hasRapidFire, numberOfDTD}}>
             <Navbar />
             <RegistrationPopup/>
             { children }
