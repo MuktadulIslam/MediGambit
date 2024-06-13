@@ -16,12 +16,12 @@ export default function Page() {
             <div className="w-full max-w-[700px] h-full flex justify-evenly *:flex *:justify-center *:items-center *:rounded-full text-white">
                 <Link
                     href={{
-                        pathname: "./question-paper/pdf",
+                        pathname: "./exam-result/pdf",
                         state: {
                             questions: 'yourQuestionsData',
                         }
                     }}
-                    className="w-40 h-full bg-gradient-to-r from-[#e03e22] to-[#997417] text-sm">Download PDF</Link>
+                    className="w-40 h-full bg-gradient-to-r from-[#e03e22] to-[#997417] text-base">Download PDF</Link>
                 <Link href="./position" className="w-40 h-full bg-gradient-to-r from-[#f7bc25] to-[#947119] text-lg">See Your Position</Link>
             </div>
         </div>

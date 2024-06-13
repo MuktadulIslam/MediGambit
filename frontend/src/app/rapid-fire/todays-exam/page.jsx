@@ -210,7 +210,7 @@ export default function Page() {
 
             {viewResult ? <>
                 <div className="h-7 md:h-8 mb-2 md:mb-3 w-full flex justify-evenly *:flex *:justify-center *:items-center *:rounded-full text-white">
-                    <Link href="./todays-exam/exam-result" className="w-40 h-full bg-gradient-to-r from-[#e03e22] to-[#997417] text-sm">View Result</Link>
+                    <Link href="./todays-exam/exam-result" className="w-40 h-full bg-gradient-to-r from-[#e03e22] to-[#997417] text-base">View Result</Link>
                     <Link href="./todays-exam/position" className="w-40 h-full bg-gradient-to-r from-[#f7bc25] to-[#947119] text-lg">Your Position</Link>
                 </div>
             </> :
