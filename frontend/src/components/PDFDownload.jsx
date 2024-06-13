@@ -12,11 +12,11 @@ export default function PDFDownload({ questions, examdetails }) {
 
     const firstTimeMount = useRef(true)
     useEffect(() => {
+        window.print();
         if (firstTimeMount.current) {
-            setTimeout(window.print(),2000)
-            // window.print();
+            // setTimeout(window.print(),2000)
             firstTimeMount.current = false;
-            setTimeout(router.back(),3000)
+            // setTimeout(router.back(),3000)
         }
     }, []);
 
