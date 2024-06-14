@@ -58,7 +58,7 @@ export default function Navbar() {
                         : ""
                     }
                 </Link>
-                <Link href="" className="transition-all duration-300 active:text-red-500 pc:hover:text-red-500 pc:hover:pl-6">
+                <Link href="/dual-to-death/schedule" className="transition-all duration-300 active:text-red-500 pc:hover:text-red-500 pc:hover:pl-6">
                     Dual to Death
                     {(numberOfDTD != null && numberOfDTD > 0) ?
                         (<span className="w-3 h-3 rounded-full bg-red-500 text-white text-[10px] flex justify-center items-center ml-1 translate-y-[-2px] shadow-sm shadow-gray-600">

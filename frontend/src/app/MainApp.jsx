@@ -18,7 +18,7 @@ export default function MainApp({children}) {
     return (<>
         <AuthContext.Provider value={{user, setUser, hasLiveExam, hasRapidFire, numberOfDTD}}>
             <Navbar />
-            <RegistrationPopup/>
+            {/* <RegistrationPopup/> */}
             { children }
         </AuthContext.Provider>
     </>)

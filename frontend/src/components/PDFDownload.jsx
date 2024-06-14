@@ -1,23 +1,14 @@
 "use client"
-import { useEffect, useRef } from 'react';
-import { useRouter } from 'next/navigation'
+import { useEffect } from 'react';
 import Link from 'next/link';
 
 export default function PDFDownload({ questions, examdetails }) {
-    const router = useRouter();
     const optionIndex = ["A", "B", "C", "D"];
     const examtopic = (examdetails != null && examdetails.examtopic != null && examdetails.examtopic.bnName != null) ? examdetails.examtopic.bnName : "";
     const examname = (examdetails != null && examdetails.examname != null && examdetails.examname.bnName != null) ? examdetails.examname.bnName : "";
     const examsubject = (examdetails != null && examdetails.examsubject != null && examdetails.examsubject.bnName != null) ? examdetails.examsubject.bnName : "";
-
-    const firstTimeMount = useRef(true)
     useEffect(() => {
         window.print();
-        if (firstTimeMount.current) {
-            // setTimeout(window.print(),2000)
-            firstTimeMount.current = false;
-            // setTimeout(router.back(),3000)
-        }
     }, []);
 
     return (<>
