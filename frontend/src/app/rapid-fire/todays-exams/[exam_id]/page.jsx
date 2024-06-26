@@ -1,8 +1,9 @@
 "use client"
 import { useContext, useEffect, useRef, useState } from "react";
-import Link from "next/link";
-import { RapidQuestionContext } from "../../../AllContexts.jsx"
+import { RapidQuestionContext } from "@/AllContexts.jsx"
 import { Roboto_Slab } from "next/font/google";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const robotoSlab = Roboto_Slab({
     weight: ["600"],
@@ -12,6 +13,7 @@ const robotoSlab = Roboto_Slab({
 
 function Timer({ timerReseter, examtimer }) {
     const [timer, setTimer] = useState();
+    const router = useRouter();
 
     useEffect(() => {
         setTimer(0)
@@ -163,7 +165,7 @@ export default function Page() {
                             <div className="h-6 w-40 mx-auto text-center bg-[#f44336] text-white shadow-sm shadow-gray-600">Question {currentQuestionIndex.current}</div>
                         </div>
 
-                        <div className="w-full h-auto px-1 md:px-1.5">
+                        <div className="w-full h-auto px-2 md:px-3">
                             <div className="mt-2 pb-2 px-1.5 md:px-2 w-full h-auto bg-white rounded-md">
                                 {currentQuestion.questionImg && (
                                     <div className="w-full mt-2 max-w-96">
@@ -210,8 +212,8 @@ export default function Page() {
 
             {viewResult ? <>
                 <div className="h-7 md:h-8 mb-2 md:mb-3 w-full flex justify-evenly *:flex *:justify-center *:items-center *:rounded-full text-white">
-                    <Link href="./todays-exam/exam-result" className="w-40 h-full bg-gradient-to-r from-[#e03e22] to-[#997417] text-base">View Result</Link>
-                    <Link href="./todays-exam/position" className="w-40 h-full bg-gradient-to-r from-[#f7bc25] to-[#947119] text-lg">Your Position</Link>
+                    <Link href="./exam-result" className="w-40 h-full bg-gradient-to-r from-[#e03e22] to-[#997417] text-base">View Result</Link>
+                    <Link href='./position' className="w-40 h-full bg-gradient-to-r from-[#f7bc25] to-[#947119] text-lg">Your Position</Link>
                 </div>
             </> :
                 <div className="h-7 md:h-8 mb-2 md:mb-3 w-full flex justify-evenly *:flex *:justify-center *:items-center *:rounded-full text-white">

@@ -60,7 +60,7 @@ export default function Page() {
 
             <div className="mt-3 md:mt-4 w-full h-7 md:h-8 flex justify-evenly *:flex *:justify-center *:items-center *:rounded-full text-white">
                 <Link href="/" className="h-full w-36 bg-gradient-to-r from-[#e03e22] to-[#997417]">Too scared now!</Link> 
-                <Link href="./rapid-fire/todays-exam" className="h-full w-40 bg-gradient-to-r from-[#fdc127] to-[#9a7517]">I demand combat!</Link> 
+                <Link href="./rapid-fire/todays-exams" className="h-full w-40 bg-gradient-to-r from-[#fdc127] to-[#9a7517]">I demand combat!</Link> 
             </div>
         </div>
     </>)

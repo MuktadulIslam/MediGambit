@@ -18,7 +18,7 @@ export default function Page() {
         <>
             <div className="flex items-center justify-center w-full mt-4 md:mt-6 h-9">
                 <div className="relative flex items-center justify-center w-64 h-full text-base text-white bg-red-500 rounded-md shadow-md md:text-lg shadow-gray-500">
-                    আজকের Live Exams
+                    আজকের Rapid Fires
                     <div className="absolute h-3 bg-white rounded-full shadow-sm shadow-black aspect-square right-3"></div>
                 </div>
             </div>
@@ -29,7 +29,7 @@ export default function Page() {
 
                     <div className="w-full space-y-2">
                         {allLiveExams.map((exam, index) => (
-                            <Link href={`./live-exams/${exam.slug}`} key={index} className="w-full h-7 bg-[#d9d9d9] shadow-sm shadow-gray-500 rounded-md flex justify-between items-center px-2 md:px-3">
+                            <Link href={`./todays-exams/${exam.slug}`} key={index} className="w-full h-7 bg-[#d9d9d9] shadow-sm shadow-gray-500 rounded-md flex justify-between items-center px-2 md:px-3">
                             <p className="text-stone-600">{exam.name}</p>
                             <div className="bg-white border border-gray-600 text-gray-600  h-4 px-1 rounded-full flex pr-1.5 text-xs">
                                 <div className="h-full mr-0.5 flex items-center">
@@ -50,7 +50,7 @@ export default function Page() {
 
                     <div className="w-full space-y-2">
                         {allPremiumLiveExams.map((exam, index) => (
-                            <Link href={`./live-exams/${exam.slug}`} key={index} className="w-full h-7 bg-[#d9d9d9] shadow-sm shadow-gray-500 rounded-md flex justify-between items-center px-2 md:px-3">
+                            <Link href={`./todays-exams/${exam.slug}`} key={index} className="w-full h-7 bg-[#d9d9d9] shadow-sm shadow-gray-500 rounded-md flex justify-between items-center px-2 md:px-3">
                                 <p className="text-stone-600">{exam.name}</p>
                                 <div className="bg-white border border-gray-600 text-gray-600  h-4 px-1 rounded-full flex pr-1.5 text-xs">
                                     <div className="h-full mr-0.5 flex items-center">

@@ -1,6 +1,6 @@
 "use client"
 import { useContext } from "react"
-import { RapidQuestionContext } from "../../../../AllContexts.jsx"
+import { RapidQuestionContext } from "../../../../../AllContexts.jsx"
 import Link from "next/link.js";
 import PerformanceComponent from "@/components/PerformanceComponent.jsx";
 

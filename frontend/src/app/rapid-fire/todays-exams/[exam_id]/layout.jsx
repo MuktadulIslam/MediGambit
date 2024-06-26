@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useRef, useState } from "react";
-import questions from "../../../../data/questions.json";
-import { RapidQuestionContext } from "../../../AllContexts.jsx"
+import questions from "../../../../../data/questions.json";
+import { RapidQuestionContext } from "@/AllContexts.jsx"
 
 
 export default function Layout({ children }) {
